@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todoapp/addTodo.dart';
 
 class Mainscreen extends StatefulWidget {
   const Mainscreen({super.key});
@@ -23,6 +24,8 @@ class _MainscreenState extends State<Mainscreen> {
                   builder: (context) {
                     return Container(
                       height: 250,
+                      child: Addtodo(),
+                      padding: EdgeInsets.all(20),
                     );
                   });
             },
